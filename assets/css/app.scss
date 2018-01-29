@@ -6,7 +6,6 @@
 h1 { text-align: center; }
 
 .restart {
-  line-height: 50%;
   height: 50px;
   width: 220px;
   color: white;
@@ -19,22 +18,19 @@ h1 { text-align: center; }
 }
 
 .card {
-   line-height: 50%;
-   text-align: center;
-   font-size: 40px;
+   text-align: top;
+   font-size: 60px;
    height: 100px;
-   width: 100px;
-   border: solid 10px;
+   width: 60px;
    color: black;
 }
 .card-picked {
-   line-height: 50%;
    border: solid #FF5733 1px;
    background-color: #FF5733;
    color: black;
+   text-align: top;
 }
 .card-picked:disabled {
-   line-height: 50%;
    border: solid 1px;
    background-color: black;
    color: black;
