@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Button } from 'reactstrap';
 
+//Attribution goes to Google.com, Youtube.com, Codepen.io, Reactjs.org and Underscorejs.org
+
 export default function run_demo(root) {
   ReactDOM.render(<Demo />, root);
 }
