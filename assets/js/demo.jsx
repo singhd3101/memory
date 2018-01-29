@@ -66,19 +66,19 @@ class Demo extends React.Component {
 //renders the layout
 render() {
 return (
-<div class="container" className="layout">
-	<br/>
+<div class="container" className="layout" margin="auto">
+	
    <div className="count">You have clicked {this.state.ctr} times</div>
 	<br/><br/>
    <div id="layout">
-       <div class="row">
-	<div class="col">
+       <div className="row">
+	<div className="col">
 	   <Card id={this.state.cardValue[0]} root={this}/></div>
-	<div class="col">
+	<div className="col">
 	   <Card id={this.state.cardValue[1]} root={this}/></div>
-	<div class="col">
+	<div className="col">
 	   <Card id={this.state.cardValue[2]} root={this}/></div>
-	<div class="col">
+	<div className="col">
 	   <Card id={this.state.cardValue[3]} root={this}/></div>
        </div><br/><br/>
        <div class="row">
