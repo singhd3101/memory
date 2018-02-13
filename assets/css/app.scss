@@ -1,0 +1,43 @@
+/* This file is for your main application css. */
+
+@import "bootstrap";
+
+//.side { padding: 4ex; text-align: center; }
+h1 { text-align: center; }
+
+.restart {
+  height: 50px;
+  width: 220px;
+  color: white;
+  border-radius: 8px;
+  padding: 14px 40px;
+  background-color: green;
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.card {
+   text-align: top;
+   font-size: 60px;
+   height: 100px;
+   width: 60px;
+   color: black;
+}
+.card-picked {
+   border: solid #FF5733 1px;
+   background-color: #FF5733;
+   color: black;
+   text-align: top;
+}
+.card-picked:disabled {
+   border: solid 1px;
+   background-color: black;
+   color: black;
+}
+.layout {
+   text-align: center;
+}
+.count {
+   font-size: 20px;
+}
